@@ -1,0 +1,101 @@
+id,name,category,price,market,image
+1,Apple (Fuji),Fruits,120,City Market,https://img.icons8.com/color/96/apple.png
+2,Banana (Robusta),Fruits,40,Central Mandi,https://img.icons8.com/color/96/banana.png
+3,Carrot (Ooty),Vegetables,60,Fresh Mart,https://img.icons8.com/color/96/carrot.png
+4,Tomato (Hybrid),Vegetables,30,City Market,https://img.icons8.com/color/96/tomato.png
+5,Potato (Jyoti),Vegetables,25,Central Mandi,https://img.icons8.com/color/96/potato.png
+6,Onion (Nasik),Vegetables,35,Wholesale Yard,https://img.icons8.com/color/96/onion.png
+7,Rice (Basmati),Cereals,90,Grain Market,https://img.icons8.com/color/96/rice-bowl.png
+8,Wheat (Sharbati),Cereals,45,Grain Market,https://img.icons8.com/color/96/wheat.png
+9,Mango (Alphonso),Fruits,250,City Market,https://img.icons8.com/color/96/mango.png
+10,Grapes (Black),Fruits,80,Fresh Mart,https://img.icons8.com/color/96/grapes.png
+11,Orange (Nagpur),Fruits,60,City Market,https://img.icons8.com/color/96/orange.png
+12,Papaya,Fruits,40,Central Mandi,https://img.icons8.com/color/96/papaya.png
+13,Watermelon,Fruits,20,Wholesale Yard,https://img.icons8.com/color/96/watermelon.png
+14,Pineapple,Fruits,50,Fresh Mart,https://img.icons8.com/color/96/pineapple.png
+15,Strawberry,Fruits,150,City Market,https://img.icons8.com/color/96/strawberry.png
+16,Cabbage,Vegetables,20,Central Mandi,https://img.icons8.com/color/96/cabbage.png
+17,Cauliflower,Vegetables,30,Wholesale Yard,https://img.icons8.com/color/96/cauliflower.png
+18,Spinach,Vegetables,15,Fresh Mart,https://img.icons8.com/color/96/spinach.png
+19,Brinjal (Eggplant),Vegetables,40,City Market,https://img.icons8.com/color/96/eggplant.png
+20,Lady Finger (Okra),Vegetables,35,Central Mandi,https://img.icons8.com/color/96/okra.png
+21,Green Chilli,Vegetables,60,Wholesale Yard,https://img.icons8.com/color/96/chili-pepper.png
+22,Capsicum,Vegetables,50,Fresh Mart,https://img.icons8.com/color/96/paprika.png
+23,Cucumber,Vegetables,25,City Market,https://img.icons8.com/color/96/cucumber.png
+24,Garlic,Vegetables,120,Central Mandi,https://img.icons8.com/color/96/garlic.png
+25,Ginger,Vegetables,80,Wholesale Yard,https://img.icons8.com/color/96/ginger.png
+26,Turmeric,Spices,150,Spice Market,https://img.icons8.com/color/96/turmeric.png
+27,Coriander,Vegetables,20,Fresh Mart,https://img.icons8.com/color/96/cilantro.png
+28,Mint,Vegetables,15,City Market,https://img.icons8.com/color/96/mint.png
+29,Lemon,Vegetables,5,Central Mandi,https://img.icons8.com/color/96/citrus.png
+30,Corn (Sweet),Cereals,25,Wholesale Yard,https://img.icons8.com/color/96/corn.png
+31,Peas (Green),Vegetables,60,Fresh Mart,https://img.icons8.com/color/96/peas.png
+32,Radish,Vegetables,20,City Market,https://img.icons8.com/color/96/radish.png
+33,Beetroot,Vegetables,30,Central Mandi,https://img.icons8.com/color/96/beetroot.png
+34,Pumpkin,Vegetables,15,Wholesale Yard,https://img.icons8.com/color/96/pumpkin.png
+35,Bottle Gourd,Vegetables,20,Fresh Mart,https://img.icons8.com/color/96/zucchini.png
+36,Bitter Gourd,Vegetables,35,City Market,https://img.icons8.com/color/96/bitter-gourd.png
+37,Coconut,Fruits,30,Central Mandi,https://img.icons8.com/color/96/coconut.png
+38,Pomegranate,Fruits,100,Wholesale Yard,https://img.icons8.com/color/96/pomegranate.png
+39,Guava,Fruits,50,Fresh Mart,https://img.icons8.com/color/96/guava.png
+40,Kiwi,Fruits,200,City Market,https://img.icons8.com/color/96/kiwi.png
+41,Pear,Fruits,120,Central Mandi,https://img.icons8.com/color/96/pear.png
+42,Peach,Fruits,150,Wholesale Yard,https://img.icons8.com/color/96/peach.png
+43,Plum,Fruits,140,Fresh Mart,https://img.icons8.com/color/96/plum.png
+44,Apricot,Fruits,180,City Market,https://img.icons8.com/color/96/apricot.png
+45,Cherry,Fruits,300,Central Mandi,https://img.icons8.com/color/96/cherry.png
+46,Blueberry,Fruits,400,Wholesale Yard,https://img.icons8.com/color/96/blueberry.png
+47,Raspberry,Fruits,450,Fresh Mart,https://img.icons8.com/color/96/raspberry.png
+48,Blackberry,Fruits,350,City Market,https://img.icons8.com/color/96/blackberry.png
+49,Avocado,Fruits,250,Central Mandi,https://img.icons8.com/color/96/avocado.png
+50,Dragon Fruit,Fruits,150,Wholesale Yard,https://img.icons8.com/color/96/dragon-fruit.png
+51,Lychee,Fruits,120,Fresh Mart,https://img.icons8.com/color/96/lychee.png
+52,Jackfruit,Fruits,40,City Market,https://img.icons8.com/color/96/jackfruit.png
+53,Custard Apple,Fruits,80,Central Mandi,https://img.icons8.com/color/96/sugar-apple.png
+54,Sapota (Chikoo),Fruits,50,Wholesale Yard,https://img.icons8.com/color/96/sapodilla.png
+55,Fig,Fruits,160,Fresh Mart,https://img.icons8.com/color/96/fig.png
+56,Dates,Fruits,200,City Market,https://img.icons8.com/color/96/dates.png
+57,Almond,Dry Fruits,800,Spice Market,https://img.icons8.com/color/96/almond.png
+58,Cashew,Dry Fruits,750,Spice Market,https://img.icons8.com/color/96/cashew.png
+59,Walnut,Dry Fruits,900,Spice Market,https://img.icons8.com/color/96/walnut.png
+60,Pistachio,Dry Fruits,1000,Spice Market,https://img.icons8.com/color/96/pistachio.png
+61,Raisins,Dry Fruits,300,Spice Market,https://img.icons8.com/color/96/raisins.png
+62,Peanuts,Dry Fruits,120,Spice Market,https://img.icons8.com/color/96/peanuts.png
+63,Barley,Cereals,35,Grain Market,https://img.icons8.com/color/96/barley.png
+64,Millet (Bajra),Cereals,30,Grain Market,https://img.icons8.com/color/96/millet.png
+65,Sorghum (Jowar),Cereals,32,Grain Market,https://img.icons8.com/color/96/sorghum.png
+66,Oats,Cereals,60,Grain Market,https://img.icons8.com/color/96/oat.png
+67,Quinoa,Cereals,150,Grain Market,https://img.icons8.com/color/96/quinoa.png
+68,Chickpeas,Pulses,80,Grain Market,https://img.icons8.com/color/96/chickpeas.png
+69,Lentils (Masoor),Pulses,90,Grain Market,https://img.icons8.com/color/96/lentils.png
+70,Kidney Beans (Rajma),Pulses,100,Grain Market,https://img.icons8.com/color/96/kidney-beans.png
+71,Black Gram (Urad),Pulses,110,Grain Market,https://img.icons8.com/color/96/black-gram.png
+72,Green Gram (Moong),Pulses,95,Grain Market,https://img.icons8.com/color/96/green-gram.png
+73,Soybean,Pulses,50,Grain Market,https://img.icons8.com/color/96/soy.png
+74,Mustard Seeds,Spices,70,Spice Market,https://img.icons8.com/color/96/mustard.png
+75,Cumin Seeds,Spices,300,Spice Market,https://img.icons8.com/color/96/cumin.png
+76,Black Pepper,Spices,500,Spice Market,https://img.icons8.com/color/96/black-pepper.png
+77,Cardamom,Spices,2000,Spice Market,https://img.icons8.com/color/96/cardamom.png
+78,Cloves,Spices,800,Spice Market,https://img.icons8.com/color/96/cloves.png
+79,Cinnamon,Spices,400,Spice Market,https://img.icons8.com/color/96/cinnamon.png
+80,Nutmeg,Spices,600,Spice Market,https://img.icons8.com/color/96/nutmeg.png
+81,Saffron,Spices,5000,Spice Market,https://img.icons8.com/color/96/saffron.png
+82,Vanilla,Spices,3000,Spice Market,https://img.icons8.com/color/96/vanilla.png
+83,Star Anise,Spices,500,Spice Market,https://img.icons8.com/color/96/star-anise.png
+84,Bay Leaf,Spices,200,Spice Market,https://img.icons8.com/color/96/bay-leaf.png
+85,Fenugreek,Spices,60,Spice Market,https://img.icons8.com/color/96/fenugreek.png
+86,Fennel Seeds,Spices,120,Spice Market,https://img.icons8.com/color/96/fennel.png
+87,Sesame Seeds,Spices,150,Spice Market,https://img.icons8.com/color/96/sesame.png
+88,Poppy Seeds,Spices,400,Spice Market,https://img.icons8.com/color/96/poppy-seeds.png
+89,Coffee Beans,Beverages,300,City Market,https://img.icons8.com/color/96/coffee-beans.png
+90,Tea Leaves,Beverages,250,City Market,https://img.icons8.com/color/96/tea.png
+91,Cocoa Beans,Beverages,400,City Market,https://img.icons8.com/color/96/cocoa-beans.png
+92,Sugarcane,Crops,10,Central Mandi,https://img.icons8.com/color/96/sugar-cane.png
+93,Cotton,Crops,60,Wholesale Yard,https://img.icons8.com/color/96/cotton.png
+94,Jute,Crops,40,Wholesale Yard,https://img.icons8.com/color/96/jute.png
+95,Rubber,Crops,150,Wholesale Yard,https://img.icons8.com/color/96/rubber.png
+96,Tobacco,Crops,200,Wholesale Yard,https://img.icons8.com/color/96/tobacco.png
+97,Bamboo,Crops,50,Central Mandi,https://img.icons8.com/color/96/bamboo.png
+98,Aloe Vera,Medicinal,30,Fresh Mart,https://img.icons8.com/color/96/aloe-vera.png
+99,Tulsi (Basil),Medicinal,20,Fresh Mart,https://img.icons8.com/color/96/basil.png
+100,Neem,Medicinal,15,Fresh Mart,https://img.icons8.com/color/96/leaf.png

@@ -16,8 +16,6 @@ Option to save favorite crops for quick access
 
 Last 7 days price trend chart (optional)
 
-Support for local languages
-
 Works offline with previously fetched data
 
 Target Users / Audience Farmers, agricultural traders, and small market vendors.
@@ -31,7 +29,5 @@ Storage: AsyncStorage (for favorites)
 Data Source: Static JSON or simple price API
 
 Navigation: React Navigation
-
-Optional: Chart library for price trends, Google Maps API for market location
 
 Expected Outcome A functional mobile app that provides farmers with quick access to market prices of selected crops, helping them maximize profits and plan sales effectively.
