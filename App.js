@@ -8,6 +8,7 @@ import { StatusBar } from 'expo-status-bar';
 import HomeScreen from './src/screens/HomeScreen';
 import DetailsScreen from './src/screens/DetailsScreen';
 import FavoritesScreen from './src/screens/FavoritesScreen';
+import LandingScreen from './src/screens/LandingScreen';
 import { COLORS } from './src/constants/theme';
 
 const Tab = createBottomTabNavigator();
@@ -49,6 +50,7 @@ export default function App() {
         <NavigationContainer>
             <StatusBar style="dark" />
             <Stack.Navigator screenOptions={{ headerShown: false }}>
+                <Stack.Screen name="Landing" component={LandingScreen} />
                 <Stack.Screen name="Main" component={TabNavigator} />
                 <Stack.Screen name="Details" component={DetailsScreen} />
             </Stack.Navigator>
