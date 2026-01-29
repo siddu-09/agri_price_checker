@@ -4,10 +4,44 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { COLORS, SPACING, FONT_SIZE, SHADOWS } from '../constants/theme';
 import { addFavorite, removeFavorite, isFavorite } from '../utils/Storage';
+import PriceTrendChart from '../components/PriceTrendChart';
 
 const DetailsScreen = ({ route, navigation }) => {
     const { crop } = route.params;
     const [favorited, setFavorited] = useState(false);
+    const [trendData, setTrendData] = useState([]);
+
+    useEffect(() => {
+        const data = generateTrendData(crop.price);
+        setTrendData(data);
+    }, [crop]);
+
+    const generateTrendData = (currentPrice) => {
+        const data = [];
+        const today = new Date();
+        const price = parseFloat(currentPrice);
+
+        for (let i = 6; i >= 0; i--) {
+            const date = new Date(today);
+            date.setDate(today.getDate() - i);
+
+            // Random price variation ±10%
+            const variation = (Math.random() * 0.2 - 0.1);
+            const trendPrice = Math.round(price * (1 + variation));
+
+            data.push({
+                value: trendPrice,
+                label: date.getDate().toString(),
+                date: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+                dataPointText: trendPrice.toString()
+            });
+        }
+        // Ensure the last point matches current price? Maybe not strictly necessary for mock, but consistency is good.
+        // Let's just append current price as today.
+        data[6].value = price;
+
+        return data;
+    };
 
     useEffect(() => {
         checkFavoriteStatus();
@@ -62,14 +96,7 @@ const DetailsScreen = ({ route, navigation }) => {
 
                     <View style={styles.section}>
                         <Text style={styles.sectionTitle}>Price Trend (Last 7 Days)</Text>
-                        <View style={styles.trendPlaceholder}>
-                            <Text style={styles.trendText}>Chart placeholder</Text>
-                            <View style={styles.barContainer}>
-                                {[40, 60, 35, 80, 50, 70, 90].map((h, i) => (
-                                    <View key={i} style={[styles.bar, { height: h, backgroundColor: COLORS.secondary }]} />
-                                ))}
-                            </View>
-                        </View>
+                        <PriceTrendChart data={trendData} />
                     </View>
                 </View>
             </ScrollView>

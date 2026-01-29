@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Native
+android/
+ios/
