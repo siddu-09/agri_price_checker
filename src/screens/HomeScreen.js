@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, FlatList, StyleSheet, ActivityIndicator, Text } from 'react-native';
+import { View, FlatList, StyleSheet, ActivityIndicator, Text, StatusBar } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { getCrops } from '../utils/DataManager';
 import CropCard from '../components/CropCard';
@@ -48,6 +48,11 @@ const HomeScreen = ({ navigation }) => {
         />
     );
 
+    const getDateString = () => {
+        const date = new Date();
+        return date.toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long' });
+    };
+
     if (loading) {
         return (
             <View style={styles.loadingContainer}>
@@ -57,21 +62,27 @@ const HomeScreen = ({ navigation }) => {
     }
 
     return (
-        <SafeAreaView style={styles.container}>
+        <SafeAreaView style={styles.container} edges={['top']}>
+            <StatusBar barStyle="dark-content" backgroundColor={COLORS.background} />
             <View style={styles.header}>
-                <Text style={styles.title}>Agri Price Checker</Text>
-                <Text style={styles.subtitle}>Latest market rates</Text>
+                <View>
+                    <Text style={styles.date}>{getDateString()}</Text>
+                    <Text style={styles.title}>Market Rates</Text>
+                </View>
+                {/* Placeholder for Profile/Settings icon or weather widget */}
             </View>
-            <View style={styles.content}>
+
+            <View style={styles.searchContainer}>
                 <SearchBar value={searchQuery} onChangeText={handleSearch} />
-                <FlatList
-                    data={filteredCrops}
-                    renderItem={renderItem}
-                    keyExtractor={(item) => item.id}
-                    contentContainerStyle={styles.list}
-                    showsVerticalScrollIndicator={false}
-                />
             </View>
+
+            <FlatList
+                data={filteredCrops}
+                renderItem={renderItem}
+                keyExtractor={(item) => item.id}
+                contentContainerStyle={styles.list}
+                showsVerticalScrollIndicator={false}
+            />
         </SafeAreaView>
     );
 };
@@ -88,26 +99,30 @@ const styles = StyleSheet.create({
         backgroundColor: COLORS.background,
     },
     header: {
-        paddingHorizontal: SPACING.m,
+        paddingHorizontal: SPACING.l,
         paddingTop: SPACING.s,
         paddingBottom: SPACING.m,
+    },
+    date: {
+        fontSize: FONT_SIZE.s,
+        color: COLORS.textSecondary, // Use the new Cool Gray
+        fontWeight: '600',
+        textTransform: 'uppercase',
+        letterSpacing: 1,
+        marginBottom: 4,
     },
     title: {
         fontSize: FONT_SIZE.xxl,
         fontWeight: '800',
-        color: COLORS.text,
+        color: COLORS.text, // Dark Slate
     },
-    subtitle: {
-        fontSize: FONT_SIZE.m,
-        color: COLORS.textSecondary,
-        marginTop: SPACING.xs,
-    },
-    content: {
-        flex: 1,
-        paddingHorizontal: SPACING.m,
+    searchContainer: {
+        paddingHorizontal: SPACING.l,
+        marginBottom: SPACING.m,
     },
     list: {
-        paddingBottom: SPACING.l,
+        paddingHorizontal: SPACING.l,
+        paddingBottom: SPACING.xxl,
     },
 });
 

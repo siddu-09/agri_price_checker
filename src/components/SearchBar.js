@@ -23,11 +23,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         backgroundColor: COLORS.card,
-        borderRadius: 10,
+        borderRadius: 30, // Pill shape
         paddingHorizontal: SPACING.m,
-        paddingVertical: SPACING.s,
-        marginBottom: SPACING.m,
-        ...SHADOWS.small,
+        paddingVertical: 12, // Slightly taller
+        ...SHADOWS.medium, // Floating effect
+        borderWidth: 1,
+        borderColor: COLORS.border,
     },
     icon: {
         marginRight: SPACING.s,
